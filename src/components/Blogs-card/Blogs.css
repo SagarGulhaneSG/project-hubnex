@@ -1,0 +1,117 @@
+.Blogs{
+    height: 100vh;
+    background: linear-gradient(0.100turn,rgb(0, 0, 0)20%,rgb(68, 68, 224));
+    
+    padding: 50px 6%;
+}
+.blog-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blog-first h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}
+.blog-first p{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    margin: 30px 0px;
+}
+.blog-first button{
+    width:148px;
+    height: 47px;
+    padding: 10px 16px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    gap: 10px;
+}
+.blog-cards{
+    width: 1292px;
+    height: 500px;
+    margin: 20px auto;
+    
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.card-blog{
+    width: 376px;
+    height: 430px;
+    border: 1px solid white;
+    color: black;
+    background: white;
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+.card-blog img{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 344px;
+    height: 180px;
+   
+}
+.card-blog span{
+    padding: 3px 11px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.card-blog h2{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-blog p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgb(110, 110, 110);
+    margin-bottom: 20px;
+}
+.card-blog button{
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background-color: none;
+    outline: none;
+    cursor: pointer;
+    background:transparent;
+    display:flex;
+}
+
+
+
+
+@media (max-width:500px){
+    .Blogs{
+        width: 500px;
+        height: 200vh;
+        background: linear-gradient(0.100turn,rgb(0, 0, 0)20%,rgb(68, 68, 224));
+    
+    padding: 50px 0;
+}
+
+    .blog-cards{
+    width: 500px;
+    height: 500px;
+    margin-top:450px;
+   
+    display: flex;
+    flex-direction:column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+}

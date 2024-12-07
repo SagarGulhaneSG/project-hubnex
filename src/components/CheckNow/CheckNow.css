@@ -1,0 +1,111 @@
+.CheckNow{
+   
+    height: 100px;
+    background: linear-gradient(0.25turn, rgb(86, 10, 185), white);
+    margin: 100px 0px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: flex;    
+}
+.iconCrown{
+    padding: 0px 30px;
+}
+.iconCrown img{
+    width: 50px;
+    height: 50px;
+}
+.free-text{
+    
+    width: 1200px;
+}
+.free-text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.free-text h2{
+    font-size: 32px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.button-check{
+    
+    width: 200px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.button-check button{
+    width: 142px;
+    height:41px ;
+    padding: 11px 18px 11px 18px;
+    background-color: #6B2AF5;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+
+
+@media (max-width:500px){
+.CheckNow{
+    height: 100px;
+    background: linear-gradient(0.25turn, rgb(86, 10, 185), white);
+    margin-bottom: 50px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    width:500px;
+}
+.free-text{
+    
+    width: 200px;
+}
+.free-text p{
+    font-size: 8px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+.free-text h2{
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.button-check{
+    
+    width: 200px;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+.button-check button{
+    width: 155px;
+    height:41px ;
+    padding: 11px 18px 11px 18px;
+    background-color: #6B2AF5;
+    border: none;
+    outline: none;
+    font-size:12px;
+    color: white;
+    display:flex;
+     justify-content: center;
+    align-items: center;
+
+}
+.iconCrown{
+    padding: 0px 10px;
+}
+.iconCrown img{
+    width: 20px;
+    height: 20px;
+}
+.content{
+    width:500px;
+    display: flex;
+  
+}
+}

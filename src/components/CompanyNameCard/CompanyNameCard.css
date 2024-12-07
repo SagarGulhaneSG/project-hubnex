@@ -1,0 +1,113 @@
+.CompanyNameCard{
+    padding: 50px 6%;
+    
+}
+.company-card{
+    width: 1232px;
+    height: 620px;
+    margin: 0px auto;
+    background-color:#F5F5F5;
+    padding: 30px;
+}
+.logo{
+    height: 200px;
+}
+.logo img{
+    width: 180px;
+    height: 188px;
+}
+.contain{
+    display: flex;
+}
+.cardtext{
+    padding-left: 20px;
+    width: 850px;
+    height: 200px;
+
+}
+.cardtext h1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.cardtext h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #7B7B7B;
+    margin-bottom: 20px;
+}
+.cardtext span{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.cardtext p{
+    width: 920px;
+    height: 59px;
+    margin-top: 20px;
+    color: #667085;
+
+}
+.text-two{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 35px;
+    color:#667085 ;
+}
+.small{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0px;
+}
+
+.special h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.special p{
+    font-size: 20px;
+    font-size: 500;
+    color: #667085;
+}
+.journey{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.journey-section{
+    
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+.journey-section h4{
+    width: 152px;
+    height: 88px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #667085;
+    line-height: 29px;
+}
+.icon-size{
+    width: 42px;
+    height: 42px;
+    color: blue;
+}
+.dark{
+    color: black;
+    font-size: 22px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(max-width:500px){
+    .CompanyNameCard{
+        display: none;
+        
+    }
+}

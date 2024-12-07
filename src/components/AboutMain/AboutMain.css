@@ -1,0 +1,175 @@
+.about-main{
+    height: 100vh;;
+}
+.about-main .about-page-name{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-left: 150px;
+}
+.about-main .about-page-name a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.about-main .about-page-name a:first-child{
+    color:#737373;
+}
+.about-main .about-page-name a:nth-child(3){
+    color:black;
+    font-weight:600;
+    font-size:14px;
+}
+.main-text h1{
+    width: 1070px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+   line-height: 59px;
+}
+.text-contain{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+.text-contain h1{
+    width:1350px;
+    font-size:50px;
+    font-weight:600;
+}
+.About-buttons{
+   
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    gap:20px;
+}
+.About-buttons button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.about-btn-contact{
+    width: 135px;
+    height: 54px;
+    padding:12px 18px 12px 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    gap: 6px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.about-btn-join{
+    width: 110px;
+    height: 55px;
+    border-radius: 5px;
+    padding:12px 18px 12px 18px;
+    gap: 6px;
+    background: #1D4ED8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border:none;
+    outline:none;
+}
+.about-ratings{
+    
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+   
+}
+.about-text{
+    width: 187px;
+    height: 52px;
+}
+.companies-about{
+   
+    width:320px;
+}
+.companies-about h2{
+  font-size:32px;
+  font-weight:600;
+}
+.companies-about p{
+    width:280px;
+}
+.rating-about{
+   
+    width:320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rating-about p{
+    width:280px;
+}
+.rating-about h2{
+    width:280px;
+    display:flex;
+   
+    align-items:center;
+    font-size:36px;
+    font-weight:600;
+
+}
+
+
+
+
+
+
+@media (max-width:500px){
+    .about-main{
+        height: 90vh;;
+    }
+    .about-main .about-page-name{
+      
+        padding-left: 70px;
+    }
+  
+    .text-contain{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+       margin-left: 50px;
+        width: 400px;
+    }
+    .text-contain h1{
+    width:1350px;
+    font-size:25px;
+    font-weight:600;
+    line-height:45px;
+}
+.about-ratings{
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    padding: 40px 0;
+   
+}
+.rating-about{
+   
+    width:320px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.About-buttons{
+   
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    gap:20px;
+    margin-left: 70px;
+}
+}
+

@@ -1,0 +1,138 @@
+.benefits{
+    padding: 50px 6%;
+    display: flex;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-benefit{
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+
+.card-benefit .mainImg{
+    width: 398px;
+    height: 500px;
+    top: 0;
+    border-radius: 20px;
+
+}
+.card-text img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.card-text h3{
+    margin: 10px;
+}
+.card-text p{
+    margin: 10px;
+}
+.benefit-card{
+    
+    width: 400px;
+    margin: 0 30px;
+}
+.small-card{
+    width: 400px;
+    border: 1px solid black;
+    height: 250px;
+    background-color: black;
+    color: white;
+    padding: 90px 30px 0px 30px;
+    border-radius: 20px;
+    margin-top:10px ;
+}
+.card-big{
+    width: 400px;
+    height: 430px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.card-big .img-big{
+    width: 398px;
+    border-radius: 20px;
+}
+.big-card-img{
+    padding-top: 40px;
+}
+.big-card-img img{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+.big-card-img h3{
+    margin: 10px;
+}
+.big-card-img p{
+    margin: 10px;
+}
+
+
+
+
+
+@media (max-width:500px){
+.text-center{
+    text-align: center;
+    font-size: 28px;
+    font-weight:bold;
+    width: 500px;
+}
+
+    .benefits{
+    padding: 50px 2%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width: 500px;
+}
+.card-benefit{
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items:center;
+}
+.card-benefit .mainImg{
+    
+    top: 0;
+    border-radius: 20px;
+    display:none;
+
+}
+.card-big{
+    width: 400px;
+    height: 230px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+.card-big .img-big{
+    width: 398px;
+    border-radius: 20px;
+    display:none;
+}
+.card-big .img-stisfaction{
+    width: 398px;
+    border-radius: 20px;
+    display:none;
+}
+}
+

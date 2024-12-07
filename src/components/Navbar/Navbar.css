@@ -1,0 +1,212 @@
+.nav{
+    width: 100%;
+    height: 180px;
+    padding:10px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.nav-top{
+    width: 95%;
+    height: 51px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 25px;
+    border-bottom: 2px solid #929292;
+    gap: 40px;
+    display: flex;
+    justify-content: end;
+
+}
+.nav-top a{
+    display: flex;
+    align-items: center;
+    
+    gap: 5px;
+    color: black;
+    text-decoration: none;
+   
+    
+    
+}
+.nav-top a p{
+    font-size: 18px;
+    line-height: 19px;
+    font-weight: 550;
+}
+.nav-top a img{
+    width: 15px;
+    height: 14px;
+}
+.nav-bottom{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 43px;
+    padding-left: 43px;
+    gap: 179px;
+    align-items: center;
+}
+.nav-bottom .logo-hubnex img{
+    width: 42px;
+    height: 42px;
+    top: 23px;
+    margin-left:50px;
+    cursor: pointer;
+}
+.nav-list{
+    width: 564px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+.nav-list ul {
+    list-style: none;
+    display: flex;
+    
+}
+.nav-list ul li{
+    width: 200px;
+    height: 90px;
+    padding: 33px 20px 33px 20px;
+    gap: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:18px;
+    font-weight:500;
+}
+.nav-buttons{
+    width: 244px;
+    height: 44px;
+    gap: 20px;
+    
+}
+.nav-buttons .btn-white{
+    width: 80px;
+    height: 44px;
+    padding: 12px 18px 12px 18px;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6183E4;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.nav-buttons .btn-blue{
+    width: 151px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 12px 18px 12px 18px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-buttons .btn-blue{
+    content: ;
+    font-size: 14px;
+}
+.nav-link{
+    text-decoration: none;
+    color:black
+}
+
+@media (max-width:800px){
+
+    .nav{
+        margin: 10px 40px;
+    }
+    .nav-list{
+        display:none;
+       
+    }  
+    .nav-bottom .logo-hubnex img{
+    width: 42px;
+    height: 42px;
+    top: 23px;
+    margin-left:50px;
+    cursor: pointer;
+} 
+   
+}
+@media (max-width:500px){
+    
+    .nav-top{
+    width: 100%;
+    height: 51px;
+    padding-left:30px;
+    border-bottom: 2px solid #929292;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+    .nav{
+    padding: 10px 20px 10px 20px;
+    }
+    .nav-bottom{
+    width: 100;
+    height: 90px;    
+    align-items: center;
+    gap: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+   .nav-buttons{
+    width: 400px;
+    height: 44px;
+    gap: 20px;
+    display:flex;
+   
+   margin-right:250px;
+    }
+  
+    .nav-bottom .logo-hubnex img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 30px;
+    }
+
+.nav-buttons .btn-white{
+    width: 70px;
+    height: 44px;
+    padding: 12px 18px 12px 18px;
+    gap: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #6183E4;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    }
+.nav-buttons .btn-blue{
+    width: 130px;
+    height: 44px;
+    border-radius: 5px;
+    padding: 12px 5px 12px 5px;
+    background-color: #1D4ED8;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    }
+.nav-bottom{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    }
+   
+}

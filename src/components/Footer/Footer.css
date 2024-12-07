@@ -1,0 +1,149 @@
+.footer{
+    padding: 20px 5%;
+    display: flex;
+  
+}
+.hubnex-logo{
+    display: flex;
+    margin-bottom: 30px;
+}
+.hubnex-logo img{
+    width: 60px;
+}
+.hubnex-logo h1{
+    font-size: 27px;
+    font-weight: 650;
+}
+.hubnex-logo h2{
+    font-size: 22px;
+    font-weight: 500;
+}
+.footer-left{
+    padding-left: 60px;
+    width: 750px;
+}
+.footer-left h3{
+    font-size:20px ;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.footer-left p{
+   
+    width:70%;
+    color: #52525B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.social-media{
+    padding: 20px 0;
+    display: flex;
+}
+.social-icon{
+    font-size: 25px;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.footer-right{
+    width: 850px;
+    padding-top: 80px;
+
+}
+.footer-right ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    
+}
+.footer-right ul li{
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+   
+}
+.footer-right ul li:hover{
+    color: #373738;
+}
+.footer-right ul li .footer-head{
+    font-size: 18px;
+    color: black;
+}
+.footer-right ul li:nth-child(1){
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor:text;
+}
+.footer-right ul li:nth-child(2){
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor:text;
+}
+.footer-right ul li:nth-child(3){
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    cursor:text;
+}
+.copyright{
+    text-align: center;
+    padding: 20px 0px;
+    color: #818385;
+}
+
+
+
+@media (max-width:800px){
+
+    .footer{
+    width: 500px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction:column;  
+}
+.footer-left p{
+   
+    width:400px;
+    color: #52525B;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.social-media{
+    padding: 20px 0;
+    display: flex;
+    justify-content:center;
+    width:400px;
+}
+.footer-right{
+    width: 500px;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+.footer-right ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    
+}
+.footer-right ul li:nth-child(1){
+    font-weight: 100;
+}
+.footer-right ul li:nth-child(2){
+    font-weight: 100;
+}
+.footer-right ul li:nth-child(3){
+    font-weight: 100;
+}
+.copyright{
+    text-align: center;
+    padding: 20px 0px;
+   
+    color: #818385;
+    width: 500px;
+}
+}

@@ -1,0 +1,243 @@
+.main{
+    width: 100%;
+    height:70vh;
+    padding: 10px 100px;
+   
+    
+}
+.main .page-name{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-left: 50px;
+}
+.main .page-name a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+.main .page-name a:first-child{
+    color:#737373;
+}
+.main .page-name a:nth-child(3){
+    color:black;
+    font-weight:600;
+    font-size:14px;
+}
+.text-img{
+    display: flex;
+    height: 650px;
+    padding-left: 50px;
+}
+.text{
+    width: 850px;
+    height: 600px; 
+}
+.text-img .text h1{
+    font-size: 60px;
+    font-weight: 900;
+    width: 574px;
+    margin: 25px 0px;
+    
+
+}
+.text-img .text p{
+    width: 600px;
+    height: 60px;
+    top: 156px;
+    left: 3.5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: black;
+    margin: 20px 0px;
+}
+.text-img .text .buttons{
+    margin-top:50px;
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+
+.btn-contact{
+    width: 135px;
+    height: 54px;
+    padding:12px 18px 12px 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    gap: 6px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.btn-join{
+    width: 130px;
+    height: 55px;
+    border-radius: 5px;
+    padding:12px 18px 12px 18px;
+    gap: 6px;
+    background: #1D4ED8;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border:none;
+    outline:none;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.company-ratings{
+  display: flex;
+   height: 150px;
+   margin: 20px 0px;
+}
+.companies{
+    width: 400px;
+    height: 100px;
+  
+}
+.companies h2{
+    font-size: 28px;
+    font-weight: 700;
+    display:flex;
+    justify-content:center;
+    
+}
+.companies h2 span{
+      font-size: 32px;
+}
+.companies p{
+    font-size: 16px;
+    
+}
+.rating{
+    
+    width: 400px;
+    height: 100px;
+}
+.rating h2{
+    display: flex;
+    font-size: 35px;
+    font-weight:700;
+    align-items: center;
+}
+.star{
+    font-size: 20px;
+    margin-left: 10px;
+    color: blue;
+}
+.image{
+ 
+    width: 700px;
+    height: 600px; 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+.image img{
+    width:550px;
+    height:450px;
+    border-radius:10px;
+}
+
+
+
+
+
+@media (max-width:500px){
+    .main{
+    height: 130vh;
+   padding: 10px 0px 0px 20px; 
+  width: 500px;
+}
+.text{
+    width: 500px;
+    height: 230px; 
+}
+.text-img{
+    display: flex;
+    height: 500px;
+    margin-top:30px;
+    width: 500px;
+}
+    .text-img{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column-reverse;
+  
+    
+}
+.text-img .text h1{
+    font-size: 30px;
+    font-weight: 900;
+    width: 300px;
+    margin: 25px 0px;  
+    
+}
+.text-img .text p{
+    width: 300px;
+    height: 60px;
+    top: 156px;
+    left: 3.5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #4B5262;
+    margin: 20px 0px;
+   
+}
+.image{
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+  
+} 
+.image img{
+    width:350px;
+    height:250px;
+    border-radius:10px;
+}
+.text-img .text .buttons{
+    margin-top:170px;
+    width:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  
+}
+.company-ratings{
+  display: flex;
+  flex-direction: column;   
+  height: 150px;
+   margin: 20px 0px;
+   width: 500px;
+}
+.rating{
+    margin-top:50px;
+    width: 400px;
+    height: 100px;
+    gap:10px;
+}
+.rating h2{
+    display: flex;
+    font-size: 30px;
+    font-weight:700;
+    align-items: center;
+    
+}
+.companies h2{
+    font-size: 28px;
+    font-weight: 700;
+    display:flex;
+    justify-content:start;
+    
+}
+}
