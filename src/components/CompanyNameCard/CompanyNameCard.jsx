@@ -1,5 +1,5 @@
 import "./CompanyNameCard.css";
-import slackdarkimg from "../../assets/slack-dark.png";
+import slackdarkimg from "../../assets/Slack-dark.png";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import React from "react";
 
