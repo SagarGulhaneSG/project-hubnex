@@ -1,5 +1,5 @@
 import "./CompanyNameCard.css";
-import slackdark from "../../assets/slack-dark.png";
+import slackdarkimg from "../../assets/slack-dark.png";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import React from "react";
 
@@ -9,7 +9,7 @@ const CompanyNameCard = () => {
         <div className="company-card">
             <div className="contain">
                 <div className="logo">
-                    <img src={slackdark} alt="" />
+                    <img src={slackdarkimg} alt="" />
                 </div>
                 <div className="cardtext">
                         <h1>Company Name</h1>
